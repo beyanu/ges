@@ -1,0 +1,21 @@
+@import url("jquery.ui.core.css");
+@import url("jquery.ui.tabs.css");
+
+body {background-color:#ecf0f1;width:500px;margin:auto;}
+h1 {font-size:16px; color:#27ae60} 
+#stream {padding:10px 10px 10px 10px;}
+#kon {color:#D6D710;}
+.taut {background-color:#FFA500;width:50px;}
+.info {background-color:#3498db;padding:10px 10px 10px 10px;}
+#tabs {background-color:#f1c40f;}
+#tabs-1, #tabs-2, #tabs-3 {background-color:#2ECC71;
+height:130px;
+}
+
+@media screen and (max-width: 1024px){
+    body {
+        width: 500px;
+        
+        }
+        
+} 

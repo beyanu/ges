@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gesma Live Streaming</title>
+<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery.ui.core.js"></script>
+	<script src="js/jquery.ui.widget.js"></script>
+	<script src="js/jquery.ui.tabs.js"></script>
+  <script>
+	$(function() {
+		$( "#tabs" ).tabs();
+	});
+	</script>
+	
+<script>
+var sys = ign.sys();
+function openFB(){
+sys.desktopService("http://facebook.com");
+}
+
+</script>
+
+</head>
+
+<body>
+
+<button onclick="openFB()">Facebook</button>
+
+
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Play</a></li>
+		<li><a href="#tabs-2">Gesma Radio</a></li>
+		<li><a href="#tabs-3">Program Acara</a></li>
+	</ul>
+	<div id="tabs-1">
+		<section id="stream">
+<a href="javascript:history.go(0)" title="muat ulang"><img src="css/images/segar.png" alt="Segarkan"></a>
+
+<audio id="kon" controls>
+  <source src="http://stream.suararadio.com:8000/sukoharjo_gesmafm_mono" type="audio/mpeg">
+  <source src="http://stream.suararadio.com:8000/sukoharjo_gesmafm_mono" type="audio/ogg">
+</audio>
+</section>
+		<p>Gelis atau Gesma live streaming adalah aplikasi untuk mendengarkan siaran radio Gesma secara langsung.</p>
+</div>
+<div id="tabs-2">
+	<a href="http:www.gesmafm.com" title="Websites Gesma"><img src="css/images/site.png" alt="Websites Gesma"></a>
+	<a href="https://facebook.com/radio.gesmafm" title="Facebook Page Gesma"><img src="css/images/fb.png" alt="Halaman Facebook"></a>
+	<a href="https://twitter.com/RadioGesma" title="Twitter"><img src="css/images/twitter.png" alt="Twitter"></a>
+	<a href="#" title="Google+"><img src="css/images/google.png" alt="Google+"></a>
+		<p>Gesma ...</p>
+</div>
+	
+<div id="tabs-3">
+		<p>1. Murattal 2. Sinar Pagi 3. Gesma Menyapa</p>
+		
+	</div>
+</div>
+
+<footer class="info">Jika ada kritik dan saran silahkan hubungi kami. 2013</footer>
+ 
+
+ 
+ 
+</body>
+</html>

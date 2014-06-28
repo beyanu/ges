@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=gls
+Exec=/usr/bin/ignsdk -p /opt/ignsdk/gesma-live-streaming.ign
+Icon=/opt/ignsdk/gesma-live-streaming.ign/icons/app.png
+Terminal=false
+Type=Application
+Categories=Audio;AudioVideo
+Name[id_ID]=Gesma Live Streaming

@@ -1,0 +1,21 @@
+{
+  "config" : { 
+		"debug" : true,
+		"websecurity" : true,
+		"name" : "Gesma Live Streaming"
+  },
+  "window" : { 
+		"transparent" : false, 
+		"noframe" : false, 
+		"fullscreen" : false,
+		"maximize" : false,
+		"width" : 500,
+		"height" : 400
+		},
+  "button" : [
+		"back",
+		"forward",
+		"stop",
+		"reload"
+	]
+}
